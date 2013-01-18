@@ -11,25 +11,17 @@ Cerberus
 
 1/6/2013
 
-Derivative of the Rostock 3D delta printer. Cerberus is an experimental 3D Delta Robot printer that uses spectra filament for the vertical carriage drive system instead of traditional toothed belts. Please be aware that there will probably (and most likely) be significant changes and improvements made to this design. - A photo gallery of the Ceberus prototype can be found in my G+ gallery here: http://tinyurl.com/amwygs6
+Cerberus is an experimental 3D Delta Robot printer that uses spectra filament for the vertical carriage drive system instead of traditional toothed belts. Please be aware that there will probably (and most likely) be significant changes and improvements made to this design. - A photo gallery of the Ceberus prototype can be found in the G+ gallery here: http://tinyurl.com/amwygs6
 
 A BOM is being worked on and will be made available as a spreadsheet in the near future.
 
 Print Files:
 
-Qty - Filename (notes)
+Qty - Filename                           (notes - below)
 
-3 - Bottom Dual Idler Bearing Mount.STL (1,4)
+3 - Bottom Dual Idler Bearing Mount.STL    (1,4)
 
-3 - Carriage Bracket.STL 
-
-3 - Carriage Inner.STL (2)
-
-3 - Carriage Outer.STL 
-
-2 - Extruder Brace Mounting Bracket.STL 
-
-3 - Filament Reel - Motor End.STL (3,4)
+3 - Filament Reel - Motor End.STL          (3,4)
 
 1 - Filament Turntable Spindle.STL
 
@@ -37,7 +29,7 @@ Qty - Filename (notes)
 
 3 - Glass Bed Mount Bracket.STL
 
-1 - Platform.STL 
+1 - Platform.STL
 
 3 - Tripod Brace Bott with Motor Mount.STL
 
@@ -45,12 +37,7 @@ Qty - Filename (notes)
 
 3 - Upper Idler Adjuster Bearing Carrier.STL (5,4)
 
-3 - Upper Idler Adjuster Body.STL  (5)
-
-1 - Wiring Box Lid.STL (optional)
-
-1 - Wiring Box.STL (optional)
-
+3 - Upper Idler Adjuster Body.STL            (5)
 
 Notes:
 
@@ -64,4 +51,5 @@ Notes:
 
 5- Due to the high tension required of the spectra filament drive, the upper idler adjuster bearing carrier requires one machined delrin V-Groove idler filament bearing per vertical tower, riding on an 8mm shaft. This upper idler bearing transfers the upward motion of the spectra filament at the top of the printer towers into downward motion. I used a printed 8mm idler bearing shaft borrowed from Airtrippers Bowden extruder (Search www.thingiverse.com) and manufactured the delrin V-Groove idlers with 8mm I.D. hole on a CNC lathe.
 
->>>>>>> Updated readme file to include qty and notes
+6- For a .5mm nozzle Cerberus delta printer we recommend the excellent Airtripper's Bowden Extruder. http://airtripper.com/1071/airtrippers-bowden-extruder-v3-updated-design/. Direct drive filament extrusion requires a very powerful stepper motor. If you experience problems with the extruder stepper motor skipping steps, you probably aren't using a Kysan 1124090 Nema 17 Stepper Motor or you are trying to use a .35mm nozzle. Delta Robot 3D printers can achieve incredible print speeds, but your extrusion system must be able to cope with the filament volume. It is recommended to use a .5mm nozzle with a direct drive system or implement a geared stepper extrusion design .
+
